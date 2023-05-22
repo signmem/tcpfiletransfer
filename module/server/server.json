@@ -1,0 +1,15 @@
+{
+    "debug":true,
+    "logfile": "/tmp/app.log",
+    "logmaxage": 432000,
+    "logrotateage": 86400,
+    "backuppath": "/tmp/test",
+    "tcpserver": {
+        "server":"10.199.175.88",
+        "port": "8089"
+    },
+    "http": {
+        "address": "0.0.0.0",
+        "port": "8088"
+    }
+}
